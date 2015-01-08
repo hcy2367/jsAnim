@@ -453,7 +453,7 @@
 			util.dom.setOpacity(elem, 100);
 			elem.style.width = defaults.width + 'px';
 			elem.style.height = defaults.height + 'px';
-			elem.style.border = defaults.border + 'px';
+			elem.style.border = defaults.border;
 			elem.innerHTML = '';
 		}
 	};
