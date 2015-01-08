@@ -1,0 +1,141 @@
+/*
+ * @anim style
+ * @authod chmyun
+ * @date 2015-1-8
+ * @email hcy2367@163.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+	font-family: 'microsoft yahei',Arial,sans-serif;
+	line-height: 1.6;
+	font-size: 14px;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	background-color: #fafafa;
+}
+a {
+	text-decoration: none;
+	color: #1982D1;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color:
+}
+::-webkit-scrollbar-track-piece {
+	background-color: #f5f5f5;
+	border-left: 1px solid #d2d2d2
+}
+
+::-webkit-scrollbar {
+	width: 13px;
+	height: 13px
+}
+::-webkit-scrollbar-thumb {
+	background-color: #c2c2c2;
+	background-clip: padding-box;
+	border: 1px solid #979797;
+	min-height: 28px
+}
+
+::-webkit-scrollbar-thumb:hover {
+	border: 1px solid #636363;
+	background-color: #929292
+}
+#anim_container {
+	width: 800px;
+	height: 500px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 20px auto;
+	position: relative;
+	background-color: #fff;
+}
+.operate-btn {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+.operate-btn a {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background-color: #fafafa;
+	color: #444;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.operate-btn a:hover {
+	background-color: #eee;
+}
+.operate-btn a.disabled {
+	cursor: default;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+	background-color: #fff;
+}
+#anim_type, #anim_param {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #ddd;
+	margin-right: 5px;
+}
+#anim_elem {
+	height: 120px;
+	width: 120px;
+	background-color: #F5FBFF;
+	color: #ff0000;
+	text-align: center;
+	border: 1px solid #ffa900;
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	z-index: 9;
+	opacity: 100;
+	filter:alpha(opacity=100);
+}
+.footer {
+	text-align: center;
+}
